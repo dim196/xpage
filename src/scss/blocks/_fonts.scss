@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "DrukWideCyr-Bold";
+    font-style: bold;
+    font-weight: 700;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("DrukWideCyr-Bold.woff"),
+         /* Если не получилось, загрузит woff2 */
+         url("./fonts/DrukWideCyr-Bold.woff") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("./fonts/DrukWideCyr-Bold.woff2") format("woff");
+  }
+@font-face {
+    font-family: "Commissioner-Bold";
+    font-style: bold;
+    font-weight: 700;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Commissioner-Bold.woff"),
+         /* Если не получилось, загрузит woff2 */
+         url("./fonts/Commissioner-Bold.woff") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("./fonts/Commissioner-Bold.woff2") format("woff");
+  }
+@font-face {
+    font-family: "Commissioner-Regular";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Commissioner-Regular.woff"),
+         /* Если не получилось, загрузит woff2 */
+         url("./fonts/Commissioner-Regular.woff") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("./fonts/Commissioner-Regular.woff2") format("woff");
+  }
